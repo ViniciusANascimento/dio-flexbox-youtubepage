@@ -1,0 +1,67 @@
+@import url(../css/normalize.css);
+h2{
+	font-size: 20px;
+	font-weight: 600;
+}
+.container{
+	height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.container button, .container-video button{
+	background-color: transparent;
+	border: none;
+}
+main{
+	background-color: lightgray;
+}
+
+#controllers{
+	width: 960px;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.channel-information{
+	display: inherit;
+	align-items: center;
+}
+.statistics {
+	display: flex;
+	flex-direction: row;
+}
+.statistics p {
+	margin-left: 5px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.describe-video{
+	margin: 5px;
+	width: 470px;
+	font-size: 14px;
+}
+
+div#channel.statistics{
+	flex-direction: column;
+}
+div#channel.statistics p {
+	margin: 0 15px;
+}
+
+#statistic-channel p {
+	margin: 0 15px;
+}
+#subscribe-button{
+	width: 159px;
+	height: 40px;
+	color: #fff;
+	background-color: #CC0000;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+	border-radius: 5px;
+}
