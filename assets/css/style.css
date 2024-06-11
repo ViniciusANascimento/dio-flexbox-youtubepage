@@ -1,11 +1,19 @@
 @import url(../css/normalize.css);
+
+/* Global settings*/
 *{
 	font-family: roboto;
+}
+section{
+	display: flex;
+	flex-direction: row;
+	background-color: #CCCC;
 }
 h2{
 	font-size: 20px;
 	font-weight: 600;
 }
+/*Header page*/
 .container{
 	height: 56px;
     display: flex;
@@ -17,10 +25,14 @@ h2{
 	background-color: transparent;
 	border: none;
 }
+/*Principal content*/
 main{
-	background-color: lightgray;
+	height: 900px;
+	flex: 1;
 }
-
+.container-video{
+	width: 960px;
+}
 #controllers{
 	width: 960px;
 	display: inline-flex;
@@ -68,7 +80,9 @@ div#channel.statistics p {
 	font-size: 14px;
 	border-radius: 5px;
 }
-#container-aside{
+
+/* Aside Bar*/
+aside{
 	width: 420px;
 }
 #container-aside ul{
